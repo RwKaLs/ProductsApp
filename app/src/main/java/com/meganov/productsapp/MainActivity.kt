@@ -6,11 +6,11 @@ import androidx.activity.compose.setContent
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.meganov.productsapp.data.ProductsRepository
 import com.meganov.productsapp.data.ProductsService
 import com.meganov.productsapp.ui.ProductListVM
 import com.meganov.productsapp.ui.composables.App
 import com.meganov.productsapp.ui.theme.GoodsAppTheme
-import com.meganov.productsapp.data.ProductsRepository
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
